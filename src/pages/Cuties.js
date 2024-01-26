@@ -1,7 +1,12 @@
+import Header from '../components/Header';
+import Feed from '../components/Feed';
+
 function Cuties() {
+
     return (
       <>
-        <h1>Cuties!</h1>
+        <Header />
+        <Feed />
       </>
     );
   };
