@@ -1,26 +1,36 @@
 {
-    "data": [
+  "users": [],
+  
+  "data": [
       {
         "id": 1,
-        "title": "spooder"
         "description": "Hims is small. He jump. Him says 'hiiiiii'",
-        "image": "https://www.treehugger.com/thmb/g9zg8jWEzkaXeXd9LCwfJBdJED8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-175560551-f20a1046e0764a96a5d25f78e23460e5.jpg"
+        "image": "https://www.treehugger.com/thmb/g9zg8jWEzkaXeXd9LCwfJBdJED8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-175560551-f20a1046e0764a96a5d25f78e23460e5.jpg",
+        "isFavorite": false
       },
       {
         "id": 2,
-        "title": "pickles!!!!"
-        "description": "the world's very cutest cat!!!",
-        "image": "'../images/pickles.jpg'"
+        "description": "A fox snacc",
+        "image": "https://c.tenor.com/MWlb3Z2qhcUAAAAC/tenor.gif",
+        "isFavorite": true
       },
       {
         "id": 3,
         "description": "lantz's favorite little guys",
-        "image": "https://animals.sandiegozoo.org/sites/default/files/2019-04/animals_hero_sugarglider.jpg"
+        "image": "https://animals.sandiegozoo.org/sites/default/files/2019-04/animals_hero_sugarglider.jpg",
+        "isFavorite": false
       },
       {
         "id": 4,
         "description": "sticky, no!",
-        "image": "https://64.media.tumblr.com/fd21e3b378414915e47f33c5b44b66a9/75f7ee090ce1cdc5-a1/s400x600/b63f4333dca417adfdde8f42dcea9f26253b94e8.gif"
+        "image": "https://64.media.tumblr.com/fd21e3b378414915e47f33c5b44b66a9/75f7ee090ce1cdc5-a1/s400x600/b63f4333dca417adfdde8f42dcea9f26253b94e8.gif",
+        "isFavorite": true
+      },
+      {
+        "id": 5,
+        "description": "Remember this sweet baby?!",
+        "image": "https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/21/1464344117-puppy1.gif?resize=980:*",
+        "isFavorite": false
       }
     ]
   }

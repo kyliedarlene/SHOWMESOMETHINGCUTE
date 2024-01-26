@@ -2,13 +2,19 @@ import { useState, useEffect } from "react";
 
 import Card from "./Card";
 
-function Feed() {
+function Feed({ display = "all" }) {
     const [cuties, setCuties] = useState([])
 
     useEffect(() => {
         fetch("http://localhost:8000/data")
           .then(r => r.json())
-          .then(data => setCuties(data))
+          .then(data => {
+            if (display === "favs") {
+              setCuties(data.filter((cutie) => cutie.isFavorite))
+            } else {
+              setCuties(data)
+            }
+          })
       }, []);
 
       return(

@@ -5,7 +5,7 @@ function Favs() {
   return (
     <div className='page'>
       <Header to={"/cuties"} text={"See All Cuties"} />
-      <Feed />
+      <Feed display='favs' />
     </div>
   );
 };
