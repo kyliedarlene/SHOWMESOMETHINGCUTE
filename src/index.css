@@ -90,6 +90,7 @@ body {
   margin-bottom: 35px; 
   background: linear-gradient(to top left, #f0cfeb, #EFBDEB, #B68CB8, #6461A0, #314CB6, #0A81D1, #CEC9EC);
   transition: transform 0.3s ease;
+  color: white;
 }
 
 .card img {

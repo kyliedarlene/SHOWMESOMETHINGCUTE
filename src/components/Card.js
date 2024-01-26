@@ -7,6 +7,18 @@ function Card({ cutie }) {
 
   function handleClick() {
     setIsFavorite(!isFavorite);
+
+    fetch(`http://localhost:8000/data/${cutie.id}`, {
+    method: "PATCH",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      isFavorite: !isFavorite,
+    }),
+  })
+    .then((r) => r.json())
+    .then((favUpdated) => console.log(favUpdated))
   }
 
   return (
