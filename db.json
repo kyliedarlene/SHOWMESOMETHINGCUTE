@@ -3,37 +3,35 @@
     {
       "id": "d029",
       "user": "Beck"
+    },
+    {
+      "id": "0efc",
+      "user": "j"
     }
   ],
   "data": [
     {
-      "id": "raccoon",
-      "description": "The babiest of all the babies",
-      "image": "https://images.unsplash.com/photo-1497752531616-c3afd9760a11?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGFuaW1hbHxlbnwwfHwwfHx8MA%3D%3D",
+      "id": "gliders",
+      "description": "lantz's favorite little guys",
+      "image": "https://animals.sandiegozoo.org/sites/default/files/2019-04/animals_hero_sugarglider.jpg",
       "isFavorite": false
     },
     {
       "id": "snacc",
-      "description": "A fox snacc",
+      "description": "a momch",
       "image": "https://c.tenor.com/MWlb3Z2qhcUAAAAC/tenor.gif",
-      "isFavorite": false
-    },
-    {
-      "id": "gliders",
-      "description": "lantz's favorite little guys",
-      "image": "https://animals.sandiegozoo.org/sites/default/files/2019-04/animals_hero_sugarglider.jpg",
-      "isFavorite": true
-    },
-    {
-      "id": "silky",
-      "description": "vogue, vogue, fashion baby",
-      "image": "https://www.thehappychickencoop.com/wp-content/uploads/2021/03/shutterstock_1170907012-1536x1024.jpg",
       "isFavorite": false
     },
     {
       "id": "weasel",
       "description": "Ron, Ron, Ron Weasel-y",
       "image": "https://i.ytimg.com/vi/bXhzNNNtkok/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAjFS-vOVhsRJhWTrU9KGlhedjSDQ",
+      "isFavorite": false
+    },
+    {
+      "id": "raccoon",
+      "description": "The babiest of all the babies",
+      "image": "https://images.unsplash.com/photo-1497752531616-c3afd9760a11?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGFuaW1hbHxlbnwwfHwwfHx8MA%3D%3D",
       "isFavorite": false
     },
     {
@@ -46,6 +44,12 @@
       "id": "fwenchie",
       "description": "Remember this sweet baby?!",
       "image": "https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/21/1464344117-puppy1.gif?resize=980:*",
+      "isFavorite": false
+    },
+    {
+      "id": "silky",
+      "description": "vogue, vogue, fashion baby",
+      "image": "https://www.thehappychickencoop.com/wp-content/uploads/2021/03/shutterstock_1170907012-1536x1024.jpg",
       "isFavorite": false
     },
     {

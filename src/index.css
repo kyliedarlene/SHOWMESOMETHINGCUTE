@@ -4,6 +4,8 @@
 
 body {
   background: linear-gradient(to top left, #ced9ed 25%, #cfc7fa 37.5%, #e2c6ee, #efc8dd 62.5%, #d7e9db);
+  font-family: 'helvetica-neue', sans-serif;
+  color: white;
 }
 
 /* Header */
@@ -13,7 +15,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px; /* Add padding for spacing */
-  margin-bottom: 1%;
+  margin-bottom: 1.5%;
 }
 
 .header h1 {

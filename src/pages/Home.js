@@ -28,7 +28,7 @@ function Home() {
       {user ? 
         <>
           <h1>{`Hello, ${user}!`}</h1>
-          <Link className="nav-button" to="/cuties">SHOWMESOMETHINGCUTE</Link>
+          <Link className="nav-button" to="/cuties">SHOW ME SOMETHING CUTE!</Link>
         </>
         : 
         <>
