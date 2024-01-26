@@ -1,13 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800;900&display=swap');
+
+/* Pages */
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to top left, #ced9ed 25%, #cfc7fa 37.5%, #e2c6ee, #efc8dd 62.5%, #d7e9db);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Header */
+
+.header {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  margin-bottom: 1%;
+  /* position: fixed; */
+}
+
+.header h1 {
+  color: #fff;
+  font-family: 'Inter', 'helvetica-neue', sans-serif;
+  font-size: 250%;
+  letter-spacing: .04rem;
+
+}
+
+/* Feed */
+
+#feed {
+  margin-bottom: 40px;
+}
+
+/* Card */
+
+.card {
+  width: 600px; 
+  margin: 0 auto;
+  padding: 32px; 
+  border-radius: 20px; 
+  margin-bottom: 35px; 
+  background: linear-gradient(to top left, #f0cfeb, #EFBDEB, #B68CB8, #6461A0, #314CB6, #0A81D1, #CEC9EC);
+  transition: transform 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px; 
+}
+
+.card p {
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.02); 
 }

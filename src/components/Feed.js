@@ -9,15 +9,14 @@ function Feed() {
         fetch("http://localhost:8000/data")
           .then(r => r.json())
           .then(data => setCuties(data))
-          .then(console.log(cuties))
       }, []);
 
       return(
-        <>
+        <div id="feed">
           {cuties.map((cutie) => (
-              <Card id={cutie.id} cutie={cutie} />
+              <Card key={cutie.id} cutie={cutie} />
           ))}
-        </>
+        </div>
       )
 }
 
