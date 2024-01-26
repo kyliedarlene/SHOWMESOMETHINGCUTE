@@ -105,3 +105,16 @@ body {
 .card:hover {
   transform: scale(1.02); 
 }
+
+.heart,
+.favorite-heart {
+  cursor: pointer;
+}
+
+.heart {
+  color: white;
+}
+
+.favorite-heart {
+  color: rgb(0, 248, 252);
+}
