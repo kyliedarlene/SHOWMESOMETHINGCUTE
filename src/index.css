@@ -29,6 +29,51 @@ body {
   text-decoration: none;
 }
 
+/* Home */
+
+.form {
+  display: flex;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 400px; /* Adjust the width as needed */
+  margin: 0 auto;
+  background: linear-gradient(to top left, #f0cfeb, #EFBDEB, #B68CB8, #6461A0, #314CB6, #0A81D1, #CEC9EC);
+}
+
+.form-input {
+  flex: 1;
+  border: none;
+  padding: 16px;
+  border-radius: 20px 0 0 20px;
+  background-color: #fff;
+  color: #333;
+}
+
+.form-button {
+  background: linear-gradient(to right, #4CAF50, #007BFF); /* Gradient background for the button */
+  color: #fff;
+  border: none;
+  padding: 16px 24px;
+  cursor: pointer;
+  border-radius: 0 20px 20px 0;
+}
+
+.nav-button {
+  display: inline-block;
+  padding: 16px 24px;
+  
+  text-decoration: none;
+  border-radius: 20px;
+  color: #fff;
+  background: linear-gradient(to right, #f0cfeb, #EFBDEB, #B68CB8, #6461A0, #314CB6, #0A81D1, #CEC9EC);
+  transition: background 0.3s ease;
+}
+
+.nav-button:hover {
+  background: linear-gradient(to right, #B68CB8, #6461A0, #314CB6, #0A81D1, #CEC9EC, #f0cfeb, #EFBDEB); /* Gradient on hover */
+}
+
 /* Feed */
 
 #feed {

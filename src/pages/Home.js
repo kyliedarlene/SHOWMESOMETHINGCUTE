@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+
 import Header from '../components/Header';
 
 function Home() {
@@ -10,19 +12,19 @@ function Home() {
   }
 
   return (
-    <div>
+    <div className="home">
       <Header />
       {user ? 
         <>
           <h1>Hello, {user}!</h1>
-          <button>SHOW ME SOMETHING CUTE!</button>
+          <Link class="nav-button" to="/cuties">SHOWMESOMETHINGCUTE</Link>
         </>
         : 
         <>
           <h2>Welcome! Your day is about to get a whole lot cuter. To continue, please enter your name!</h2>
-          <form onSubmit={handleSubmit}>
-            <input type="text" name="userInput" />
-            <button type="submit">Submit</button>
+          <form class="form" onSubmit={handleSubmit}>
+            <input class="form-input" type="text" name="userInput" autoComplete="off" />
+            <button class="form-submit" type="submit">&#8594;</button>
           </form>
 
         </>
