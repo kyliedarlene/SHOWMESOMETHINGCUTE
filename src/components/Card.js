@@ -29,7 +29,7 @@ function Card({ cutie }) {
           onClick={handleClick} 
           class={isFavorite ? "favorite-heart" : "heart"}
         >
-          &#x2661;
+          &#x2764;
         </span>
       </div>
     );
