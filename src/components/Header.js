@@ -1,14 +1,14 @@
 import '../index.css';
 import { NavLink } from "react-router-dom";
 
-function Header() {
+function Header({ to, text }) {
     return (
     <div className='header' >
         <NavLink to="/" exact>
         <h1>SHOWMESOMETHINGCUTE</h1>
       </NavLink>
-      <NavLink to="/favs" exact>
-        <h4>Go To Favorites</h4>
+      <NavLink to={to} exact>
+        <h4>{text}</h4>
       </NavLink>
     </div>
     )

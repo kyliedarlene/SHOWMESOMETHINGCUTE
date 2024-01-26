@@ -3,12 +3,11 @@ import Feed from '../components/Feed';
 
 import '../index.css';
 
-
 function Cuties() {
 
     return (
       <div className='page'>
-        <Header />
+        <Header to={"/favs"} text={"Go To Favorites"} />
         <Feed />
       </div>
     );
