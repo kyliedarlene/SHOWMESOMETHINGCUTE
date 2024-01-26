@@ -9,19 +9,24 @@ body {
 /* Header */
 
 .header {
-  /* display: flex;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center; */
+  padding: 10px; /* Add padding for spacing */
   margin-bottom: 1%;
-  /* position: fixed; */
 }
 
 .header h1 {
-  color: #fff;
+  
   font-family: 'Inter', 'helvetica-neue', sans-serif;
   font-size: 250%;
   letter-spacing: .04rem;
+}
 
+.header h1,
+.header h4 {
+  color: #fff;
+  text-decoration: none;
 }
 
 /* Feed */
